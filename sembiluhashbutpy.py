@@ -1,3 +1,9 @@
+#!/usr/bin/python3
+#
+#
+# Written by Prima Agus Setiawan 
+# a.k.a joeheartless 
+
 import os
 import json
 import hashlib
