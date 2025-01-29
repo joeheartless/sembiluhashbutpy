@@ -32,7 +32,7 @@ python script.py encode --data "Your secret message" --password "your_strong_pas
 python script.py decode --code YOUR_SHORT_CODE --password "your_strong_password"
 ```
 - If the password is correct, the message will be decrypted and then **deleted permanently**.
-- If incorrect, the system logs a failed attempt. **5 failed attempts will delete the message.**
+- If incorrect, the system logs a failed attempt.
 
 ### Clear All Stored Messages
 ```sh
@@ -41,7 +41,6 @@ python script.py clear
 - Deletes all stored encrypted messages.
 
 ## Security Notes
-- **Environment Variable for Integrity Check**: You should set `INTEGRITY_SECRET` as an environment variable for better security.
 - **Use Strong Passwords**: Since the encryption key is derived from the password, use a strong and unique password.
 - **Avoid Sharing the Password**: Only share the short code, never the encryption password.
 
